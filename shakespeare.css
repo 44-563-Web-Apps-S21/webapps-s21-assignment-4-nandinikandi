@@ -1,0 +1,29 @@
+.speech {
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: Black;
+  }
+
+  .stage-direction {
+    font-size: x-large;
+    font-family:Arial, Helvetica, sans-serif;
+    color: Black;
+    background-color: bisque;
+  }
+
+  .stage-direction:hover{
+      background-color: blue;
+      color:aliceblue;
+  }
+
+  .viola{
+    font-size:large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 81, 0);
+  }
+
+  .captain{
+    font-size:large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 112, 19);
+  }
