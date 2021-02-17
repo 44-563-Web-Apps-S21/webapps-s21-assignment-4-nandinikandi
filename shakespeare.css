@@ -27,3 +27,20 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: rgb(0, 112, 19);
   }
+
+  table{
+      border: 1px solid black;
+      color :rgb(212, 0, 0) ;
+      text-align: center;
+      width: 50%;    
+      margin: 5px; 
+  }
+
+  th, td {
+    padding: 16px;
+    border: seashell;
+  }
+
+  tr:nth-child(odd) {
+    background-color: #aefc8a;
+  }
