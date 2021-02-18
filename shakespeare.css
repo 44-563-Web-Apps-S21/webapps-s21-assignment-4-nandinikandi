@@ -1,62 +1,99 @@
 .speech {
     font-size: medium;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: Black;
-  }
-
-  .stage-direction {
-    font-size: x-large;
-    font-family:Arial, Helvetica, sans-serif;
-    color: Black;
-    background-color: bisque;
-  }
-
-  .stage-direction:hover{
-      background-color: blue;
-      color:aliceblue;
-  }
-
-  .viola:hover{
-    color: white;
-    text-shadow: 1px 1px 2px rgb(245, 43, 43), 0 0 25px rgb(255, 67, 76), 0 0 5px rgb(248, 211, 213);  
-    filter: blur(1px);
-    border:3px dotted black;
 }
 
-  .viola{
-    font-size:large;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color: rgb(255, 81, 0);  
-  }
+.stage-direction {
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: Black;
+    background-color: bisque;
+}
 
+.stage-direction:hover {
+    background-color: blue;
+    color: aliceblue;
+}
 
+.viola:hover {
+    color: white;
+    text-shadow: 1px 1px 2px rgb(245, 43, 43), 0 0 25px rgb(255, 67, 76), 0 0 5px rgb(248, 211, 213);
+    filter: blur(1px);
+    border: 3px dotted black;
+}
 
-  .captain{
-    font-size:large;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+.viola {
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 81, 0);
+}
+
+.captain {
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(0, 112, 19);
-  }
+}
 
-  .captain:hover{
-      color:white;
-      text-shadow: 1px 1px 2px rgb(42, 66, 3), 0 0 25px rgb(105, 255, 67), 0 0 5px rgb(209, 154, 193);
-      filter:blur(1px);
-      border:3px dotted black;
-  }
+.captain:hover {
+    color: white;
+    text-shadow: 1px 1px 2px rgb(42, 66, 3), 0 0 25px rgb(105, 255, 67), 0 0 5px rgb(209, 154, 193);
+    filter: blur(1px);
+    border: 3px dotted black;
+}
 
-  table{
-      border: 1px solid black;
-      color :rgb(212, 0, 0) ;
-      text-align: center;
-      width: 50%;    
-      margin: 5px; 
-  }
+table {
+    border: 1px solid black;
+    color: rgb(212, 0, 0);
+    text-align: center;
+    width: 50%;
+    margin: 5px;
+}
 
-  th, td {
+th, td {
     padding: 16px;
     border: seashell;
-  }
+}
 
-  tr:nth-child(odd) {
+tr:nth-child(odd) {
     background-color: #aefc8a;
+}
+
+.image {
+    height: 3in;
+    width: 2in;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
   }
